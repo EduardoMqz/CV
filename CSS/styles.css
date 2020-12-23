@@ -17,3 +17,11 @@ h1{
 h3{
     color: #ecb390;
 }
+
+.perfil{
+    height: 200px;
+}
+
+.perfil:hover{
+    border-radius: 100%;
+}
