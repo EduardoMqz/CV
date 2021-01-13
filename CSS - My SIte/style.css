@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+
+h1{
+
+    margin: 0 auto;
+    font-family:Sofia;
+    }
+
+.top-container{
+    background-color: #d2fcfa;
+    width: 100%;
+    position: relative;
+    padding-top: 13em;
+    overflow: hidden;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.profile-image{
+    border-radius: 50%;
+}
+
+.mountain{
+    z-index: 1;
+    position: relative;
+}
+
+.bottom-cloud{
+    position: absolute;
+    animation-name: sideToSide;
+    animation-duration: 30s;
+    animation-iteration-count:infinite;
+    z-index: 0;
+}
+
+.top-cloud{
+    position: absolute;
+    left: 55%;
+    top: 50px;
+    animation-name: sideToSide2;
+    animation-duration: 60s;
+    animation-iteration-count:infinite;
+
+}
+
+@keyframes sideToSide {
+
+    from{
+        left: -150px;
+        top:10px;
+    } to {
+        left:1400px;
+        top:10px;
+    }
+  }
+
+
+  @keyframes sideToSide2 {
+
+    from{
+        left: -250px;
+        top:500px;
+        z-index: 0;
+    } to {
+        left:1400px;
+        top:500px;
+        z-index: 0;
+    }
+  }
