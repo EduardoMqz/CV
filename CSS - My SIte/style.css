@@ -4,18 +4,35 @@ body{
     font-family: Verdana, sans-serif;
 }
 
-
 h1{
 
     margin: 0 auto;
-    font-family:Sofia;
-    }
+    font-family: 'Sofia', cursive;
+    font-size: 5rem; /* 16px == 100% == 1rem*/ 
+    color: #66BFBF;
+}
+
+h2{
+    font-size: 2.5rem;
+    margin: 0 auto 0;
+    color: #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+   color: #11999E;
+}
+
+.iam{
+    font-weight: normal;
+}
 
 .top-container{
     background-color: #d2fcfa;
     width: 100%;
     position: relative;
-    padding-top: 13em;
+    padding-top: 8rem;
     overflow: hidden;
 }
 
