@@ -28,6 +28,27 @@ a{
     font-weight: normal;
 }
 
+.code-img{
+    width: 40%;
+}
+.development{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.bass{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
 .top-container{
     background-color: #d2fcfa;
     width: 100%;
@@ -36,13 +57,14 @@ a{
     overflow: hidden;
 }
 
-.middle-container{
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
 
 }
 
-.bottom-container{
-
-}
 
 .pro{
     text-decoration: underline;
